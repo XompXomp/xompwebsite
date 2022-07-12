@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xomp</title>
+    <link rel="stylesheet" href="xomp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Koulen&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+    <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+
+
+<body>
+    <div id="whole">
+        <h1 class="btn" onclick="openPopup()"><strong>Xomp</strong></h1>
+        <div class="popup" id="popup">
+            <h2>Hey there!</h2>
+            <p id="popuppara">My name is Meghraj Sharma. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non et accusantium architecto esse rem, minima ad excepturi optio quod voluptas placeat expedita temporibus quidem obcaecati quaerat aperiam neque. Error commodi doloremque libero placeat similique id laboriosam, beatae quas ea aliquam eaque ipsam numquam modi ex aspernatur aut architecto iste! Perspiciatis fuga laudantium nam expedita doloremque velit! Perspiciatis, dicta! Saepe quam a quisquam laborum quis dolore dignissimos ipsa enim itaque qui.<br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi culpa voluptatibus similique repellat doloribus, molestiae nam nobis minus, laudantium excepturi cum. Ea expedita laborum ut sequi assumenda ex accusamus obcaecati saepe vel blanditiis eligendi, quis voluptates provident laboriosam numquam dolores eos tempora consequuntur porro autem. Cumque perferendis quod eaque magni earum optio voluptas. Quasi illo maiores aspernatur, reprehenderit veritatis, impedit labore officiis distinctio atque doloribus incidunt cum debitis, eligendi culpa? Iusto nobis ducimus eligendi ipsa dolor nostrum cupiditate, ratione, mollitia consequatur quis aliquid, in et labore officia inventore rem repudiandae.</p>
+            <button type="button" onclick="closePopup()">EXIT</button>
+        </div>
+    </div>
+    <div class="division1">
+        <div id="Socials" class="item">
+            <h3>Socials</h3>
+            <p id="SocialsPara">
+                <a href="https://www.youtube.com/channel/UCTkVy-3LBbLDOUfXQRRveEQ" target="_blank"><i
+                        class="fa fa-youtube-play w3-hover-opacity">ㅤ</i></a>
+                <a href="https://www.instagram.com/m3ghraj/" target="_blank"><i
+                        class="fa fa-instagram w3-hover-opacity">ㅤ</i></a>
+                <a href="https://twitter.com/XompXomp" target="_blank"><i
+                        class="fa fa-twitter w3-hover-opacity">ㅤ</i></a>
+                <a href="https://www.linkedin.com/in/meghraj-sharma-988076219/" target="_blank"><i
+                        class="fa fa-linkedin w3-hover-opacity">ㅤ</i></a>
+            </p>
+        </div>
+        <div id="Project" class="item">
+            <h3>Projects and Achievements</h3>
+            <button class="btn btn-success" onclick=" window.open('Achieve.html','_blank')"> <i class="fa fa-expand" aria-hidden="true"></i></button><br><br>
+        </div>
+    </div>
+    <div class="division2">
+        <div class="item2">
+            CONTACT ME 
+            <i class="fa fa-envelope" aria-hidden="true">ㅤsharmameghraj656@gmail.com</i>
+        </div>
+    </div>
+
+<script>
+    let popup = document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+</script>
+
+</body>
+
+</html>
